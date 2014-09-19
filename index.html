@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>IWD3</title>
+	<link rel="shortcut icon" href="JQueryLib/favicon.ico">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="JQueryLib/css/themes/default/jquery.mobile-1.4.3.min.css">
+	<link rel="stylesheet" href="JQueryLib/_assets/css/jqm-demos.css">
+	<script src="JQueryLib/js/jquery.js"></script>
+	<script src="JQueryLib/_assets/js/index.js"></script>
+	<script src="JQueryLib/js/jquery.mobile-1.4.3.min.js"></script>
+	
+	<!-- metroJS -->
+	<link href="MetroTitles/Scripts/MetroJs/bundles/MetroJs.min.css" rel="stylesheet" type="text/css" />	
+	<script type="text/javascript" src="jeasyUi/easyloader.js"></script>
+	<!-- end -->
+	
+	<!-- Bootstrap panel core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/sb-adminEDS.css" rel="stylesheet">
+	<link rel="stylesheet" href="font-awesome/css/font-awesomeEDS.min.css">
+	<!-- End Bootstrap panel core CSS -->
+	
+
+</head>
+<body>
+<!-- PAGE ONE -->
+<div data-role="page" id="pageone" style="float:center;background-image: url(http://www.iwd3.com/SL2/images/bg3.png);width:100%;height:100%;background-repeat:repeat;">
+  </br>
+  <div data-role="header" data-position="fixed">
+	<h1 id="ftp1">SandLot Tournament Cincinnati 2015</h1>
+</div>
+
+<div class="clear"></div>
+  <div data-role="main" style="float:center;width:100%;height:100%;">
+	
+	<div id="wrapper">
+		<div id="page-wrapper" style="width: 100%;">
+					  
+			<!-- PanelLayout 1 - 342x215 -->
+			<div id="pn1" class="panel panel-info" >
+			  <div class="panel-heading">
+				<div class="row">
+				  <div class="col-xs-6X">
+					<!-- <i class="fa fa-comments fa-5x">image</i> -->
+					<div data-mode="carousel" data-start-now="false" class="live-tile" >        
+						<div><img class="full" src="http://www.iwd3.com/SL2/images/A1.jpg" alt="images/blank.png" /></div>
+						<div><img class="full" src="http://www.iwd3.com/SL2/images/A2.jpg" alt="images/blank.png" /></div>
+						<div id="pn1_tag1" class="accent emerald"><p class="metroExtraLarge">....</p></div>
+						<div><img class="full" src="http://www.iwd3.com/SL2/images/A3.jpg" alt="images/blank.png" /></div>
+						<div><img class="full" src="http://www.iwd3.com/SL2/images/A4.jpg" alt="images/blank.png" /></div>
+						<div><img class="full" src="http://www.iwd3.com/SL2/images/A5.jpg" alt="images/blank.png" /></div>					
+						<div id="pn1_tag2" class="accent emerald"><p class="metroExtraLarge">....</p></div>
+						<div><img class="full" src="http://www.iwd3.com/SL2/images/A6.jpg" alt="images/blank.png" /></div>
+						<div><img class="full" src="http://www.iwd3.com/SL2/images/A7.jpg" alt="images/blank.png" /></div>
+						<div><img class="full" src="http://www.iwd3.com/SL2/images/A8.jpg" alt="images/blank.png" /></div>					
+					</div>	<!-- tile1 -->			
+				  </div> <!-- col-xs-6 -->
+				  <div class="col-xs-6 text-left">
+					<p id="pn1_title" class="announcement-heading">FANS</p>
+					<p id="pn1_content"  class="announcement2-text">loading...</p>
+				  </div> <!-- col-xs-6 text-right -->
+				</div> <!-- row -->
+			  </div> <!-- panel-heading -->
+			  <a href="#">
+				<div class="panel-footer announcement-bottom">
+				  <div class="row">
+					<div class="col-xs-6">
+						<a href="javaScript:singLineTextM(0,'Welcome Fans');"><img src="http://www.iwd3.com/SL2/images/arrow.png" alt=">" /> more...</a> 
+						<!-- 
+						<a href="#" data-role="button" data-mini="true" >Link button</a> -->
+					  <!-- View Mentions -->
+					</div>
+					<div class="col-xs-6 text-left">
+					  <!-- <i class="fa fa-arrow-circle-right"></i> -->
+					</div> <!-- col-xs-6 text-right -->
+				  </div> <!-- row -->
+				</div> <!-- panel-footer announcement-bottom -->
+			  </a>
+			</div> <!-- panel panel-info -->
+			</br>
+			<!-- PanelLayout 1 - END -->
+				
+			
+			<!-- PanelLayout 6 - 342x215 -->
+			<div id="pn1" class="panel panel-info" >
+			  <div class="panel-heading">
+				<div class="row">
+				  <div class="col-xs-6X" style="width: 5px;">
+					<!-- <i class="fa fa-comments fa-5x">image</i> -->							
+				  </div> <!-- col-xs-6 -->
+				  <div class="col-xs-6 text-left" style="width: 100%;">
+					<p class="announcement-heading">SCORES</p>
+					<!-- <p class="announcement2-text">New Mentions!</br>hello world, this is a test. this counld be more data if we want it to be. Let see what happend if the text is longer than before.</p> -->
+					<p class="announcement2-text">
+						<div>
+							<table id="scoreboard" ></table>
+							<!--
+							<table id="scoreboard" class="easyui-datagrid" style="width:600px;height:250px"
+									url="http://www.iwd3.com/A1/Scripts/json1b.php"
+									title="Load Data" 
+									rownumbers="true" pagination="true" fitColumns="true">
+								<thead>
+									<tr>
+										<th data-options="field:'teams'"  width="130">Teams</th>
+										<th field="score" width="60" align="center">Scores</th>
+										<th field="inning" width="60" >Innings</th>
+									</tr>
+								</thead>
+							</table>
+							-->
+						</div>
+					</p>
+				  </div> <!-- col-xs-6 text-right -->
+				</div> <!-- row -->
+			  </div> <!-- panel-heading -->
+			  <a href="#">
+				<div class="panel-footer announcement-bottom">
+				  <div class="row">
+					<div class="col-xs-6">
+					  <!-- <a href="javaScript:loadE();"><img src="http://www.iwd3.com/SL2/images/arrow.png" alt=">" /> more...</a> -->
+					  <div id="lupDte6">Last Updated:...</div>
+					</div>
+					<div class="col-xs-6 text-right">
+					  <!-- <i class="fa fa-arrow-circle-right"></i> -->
+					</div> <!-- col-xs-6 text-right -->
+				  </div> <!-- row -->
+				</div> <!-- panel-footer announcement-bottom -->
+			  </a>
+			</div> <!-- panel panel-info -->
+			</br>
+			<!-- PanelLayout 6 - END -->
+			
+			<!-- PanelLayout 7 - 342x215 -->
+			<div id="pn7" class="panel panel-info" >
+			  <div class="panel-heading">
+				<div class="row">
+				  <div class="col-xs-6X" style="width: 5px;">
+					<!-- <i class="fa fa-comments fa-5x">image</i> -->							
+				  </div> <!-- col-xs-6 -->
+				  <div class="col-xs-6 text-left" style="width: 100%;">
+					<p class="announcement-heading"><h3><div id="pn7_title">News &</br>Info</div></h3></p>
+					<p class="announcement2-text"><div id="pn7_info">loading...</div></br></p>
+				  </div> <!-- col-xs-6 text-right -->
+				</div> <!-- row -->
+			  </div> <!-- panel-heading -->
+			  <a href="#">
+				<div class="panel-footer announcement-bottom">
+				  <div class="row">
+					<div class="col-xs-6">
+					  <!-- <a href="javaScript:loadE();"><img src="images/arrow.png" alt=">" /> more...</a> -->
+					  <div id="lupDte7">Last Updated:...</div>
+					</div>
+					<div class="col-xs-6 text-right">
+					  <!-- <i class="fa fa-arrow-circle-right"></i> -->
+					</div> <!-- col-xs-6 text-right -->
+				  </div> <!-- row -->
+				</div> <!-- panel-footer announcement-bottom -->
+			  </a>
+			</div> <!-- panel panel-info -->
+			</br>
+			<!-- PanelLayout 7 - END -->
+			
+			<div id="pn9" class="live-tile" data-delay="3500" data-direction="vertical" data-initdelay="2500" style="width:100%;height:315px">  					
+				<div>
+					<table id="tt2" ></table>
+					<!-- <a href="#"><img class="full" src="http://www.iwd3.com/SL2/images/A5.jpg" alt="images/blank.png" /></a> 
+					<span class="tile-title">Take The Field</span> -->
+				</div>
+				<div>
+					<table id="tt" ></table>
+					<!--
+					<p>2015 Sandlot Tournaments | Powered by I-MKTG
+					<span class="tile-title">Its A Hit</span>
+					</p>
+					-->
+				</div>					
+			</div>
+			<div class="clear"></div>	
+		</div>
+	</div>
+	
+	<div>
+		<table id="scores2" ></table>
+	</div>	
+	
+	
+  <div class="clear"></div>
+</br>
+
+
+  
+    
+	
+	<div data-role="footer" data-position="fixed">
+		<!-- <h1>SandLot Tournament Cincinnati 2015</h1> -->
+		<h1 id="ftp2">SandLot Tournament Cincinnati 2015</h1>
+	</div>
+</div> 
+<!-- END PAGE ONE -->
+
+
+
+
+
+<script src="MetroTitles/Scripts/MetroJs/bundles/MetroJs.min.js" type="text/javascript"></script>	
+<script type="text/javascript">
+
+			
+		$( window ).load(function() {
+			
+		});
+		
+		$( window ).unload(function() {
+		  //alert( "Window closing Bye now!" );
+		});
+		
+        $(document).ready(function () {	
+			var windowWidth;
+			var windowHeight;
+			var canvasMain;
+			var contextMain;
+			windowWidth = window.innerWidth;
+			windowHeight = window.innerHeight;
+			
+			$('#pn1').width = windowWidth -10;
+			
+			
+			$(window).on('orientationchange', function(event) {
+				windowWidth = window.innerWidth;
+				windowHeight = window.innerHeight;
+				var widthAdd = windowWidth ;
+			
+				if (orientation == 90) {
+					widthAdd = windowWidth -15 ;
+				};
+				if (orientation == 0) {
+					widthAdd = windowWidth -15;
+				};
+				//alert(orientation+" "+widthAdd);
+				//$('#tt').refresh; //widthAdd; //widthAdd ;
+			});
+			
+			
+            $(".live-tile,.flip-list").liveTile();	
+           
+			loadD();
+			load3();
+			
+			//$("#ftp2").html("page 2 footer text (ftp2)");
+			//$("#ftp3").html("page 3 footer text (ftp3)");
+				
+					
+			// set interval
+			var tid1 = setInterval(mycode1, 9000);
+			var tid2 = setInterval(mycode2, 10000);// 100000
+			function mycode1() {
+			  // do some stuff...
+			  // no need to recall the function (it's an interval, it'll loop forever)
+			  //$("#newP1").html("Static tiles can take advantage of theming too X! no need to recall the function (it's an interval, it'll loop forever."+displayTime()+""); //$.now()); Math.round(+new Date()/1000));
+				
+				//$('#tt').refresh;
+				$("#ftp1").html("<p>load3()..."+displayTime()+"</p>");
+				$('#pn7').height = 310;
+				load3();
+				//loadD2();
+			}
+			function mycode2() {
+			  // do some stuff...
+			  // no need to recall the function (it's an interval, it'll loop forever)
+			  //$("#q1").html("<p>Static tiles can take advantage of theming too X! "+displayTime()+"</p>"); //$.now()); Math.round(+new Date()/1000));
+				loadD();
+				//$('#scoreboard').refresh;
+				$("#ftp2").html("<p>loadD(): "+displayTime()+"</p>");
+			}
+			function abortTimer() { // to be called when you want to stop the timer
+			  clearInterval(tid1);
+			  clearInterval(tid2);
+			}
+			// end set interval
+			
+			function displayTime() {
+				var str = "";
+				var currentTime = new Date()
+				var hours = currentTime.getHours()
+				var minutes = currentTime.getMinutes()
+				var seconds = currentTime.getSeconds()
+
+				if (minutes < 10) {
+					minutes = "0" + minutes
+				}
+				if (seconds < 10) {
+					seconds = "0" + seconds
+				}
+				str += hours + ":" + minutes + ":" + seconds + " ";
+				if(hours > 11){
+					str += "PM"
+				} else {
+					str += "AM"
+				}
+				return str;
+			}
+			
+			
+			function load3(){
+				//alert('load3()');
+				using('datagrid', function(){
+					$('#tt').datagrid({
+						queryParams: [[{
+							name: 'easyui',
+							subject: 'datagrid'
+						}]],
+						//title:'DataGrid',
+						//windowWidth -15,
+						rownumbers: true,
+						fitColumns: true,
+						striped: true,
+						nowrap: false,
+						//sortName: 'released',
+						//sortOrder: 'desc',
+						//width: windowWidth -25, 
+						height:315,
+						fitColumns:true,
+						//url:'datagrid_data.json',
+						onLoadSuccess: inputexp1, 
+						onLoadError: error1,
+						onBeforeRender: function(target, rows){
+							width: windowWidth -25;
+						},
+						columns:[[
+							{field:'Date',title:'Date',width:90},
+							{field:'Tournaments',title:'2015 Tournaments',width:200},
+							{field:'Groups',title:'Age Groups',width:250}
+						]],
+						data: [
+							{"Date":"5/22 - 5/25","Tournaments":"Memorial Day Extravaganza", "Groups":"10U, 11U, 12U, 13U, 14U, 15U"},
+							{"Date":"6/4 – 6/7","Tournaments":"King of the Diamond", "Groups":"12U, 13U, 14U, 15U, 16U"},
+							{"Date":"56/11 – 6/14","Tournaments":"Sandlot Tournament Challenge", "Groups":"10U, 11U, 12U, 13U, 14U, 15U, 16U, 17U, 18U"},
+							{"Date":"56/25 – 6/28","Tournaments":"Summer Slugfest", "Groups":"10U, 11U, 12U, 13U, 14U, 15U"},
+							{"Date":"7/2 – 7/5","Tournaments":"Firecracker Classic", "Groups":"10U, 11U, 12U, 13U, 16U, 17U, 18U"},
+							{"Date":"7/10 – 7/12","Tournaments":"Cincinnati T-Ball Championships", "Groups":"T-Ball"},
+							{"Date":"7/16 – 7/19","Tournaments":"Wood Bat Championships", "Groups":"14U, 15U, 16U, 17U, 18U"},
+							{"Date":"7/30 – 8/2","Tournaments":"Ohio Championships", "Groups":"10U, 11U, 12U, 13U, 14U, 15U, 16U, 17U, 18U"}
+						]
+					});
+					//+data.rows[0].productid);
+					function inputexp1(data) {  
+						//$("#tt5.src").html(data.rows[7].productname);
+						//$("#tt6").html(data.rows[0].productid+" "+data.rows[0].productname);
+						//$("#tt7").html(data.rows[1].productid+" "+data.rows[1].productname);
+						$("#lupDte7").html(displayTime());
+						//alert("Done");
+					};
+					function error1() {  
+						alert("Error");
+					};
+				});
+			}
+		
+			
+        	function loadD(){
+				//alert("loadD()");// ?callback=?
+				$.getJSON('http://www.iwd3.com/A1/Scripts/json1.php',
+				// No additional parameters sent- If you want you can send below  
+				{},
+				function (data) {  
+					 // data is now JSON object instantiated from retrieved info					 
+					 // scoreboard
+					var items2 = [];
+					$.each( data.scoreBoardData, function ( i, val ) {
+						items2.push(val);// load array here
+					});
+					//$("#scoreboard").datagrid({data: items2 }) ;
+					$("#lupDte6").html('loadD '+displayTime());
+					//alert(" count: "+ items2.length);
+					
+					
+					using('datagrid', function(){
+						$('#scoreboard').datagrid({
+							queryParams: [[{
+								name: 'easyui',
+								subject: 'datagrid'
+							}]],
+							//title:'DataGrid',
+							//windowWidth -15,
+							rownumbers: true,
+							fitColumns: true,
+							striped: true,
+							nowrap: false,
+							//sortName: 'released',
+							//sortOrder: 'desc',
+							//width: windowWidth -25, 
+							height:315,
+							fitColumns:true,
+							//url:'datagrid_data.json',
+							onLoadSuccess: inputexp1, 
+							onLoadError: error1,
+							onBeforeRender: function(target, rows){
+								width: windowWidth -25;
+							},
+							columns:[[
+								{field:'teams',title:'Teams',width:120},
+								{field:'score',title:'Scores',width:60},
+								{field:'inning',title:'Innings',width:130}
+							]],
+							data: items2
+						});
+						//+data.rows[0].productid);
+						function inputexp1(data) {  
+							//$("#tt5.src").html(data.rows[7].productname);
+							//$("#tt6").html(data.rows[0].productid+" "+data.rows[0].productname);
+							//$("#tt7").html(data.rows[1].productid+" "+data.rows[1].productname);
+							//alert("Done");
+						};
+						function error1() {  
+							alert("Error");
+						};
+					});
+										
+					
+					$('#tt2').datagrid({
+						url:'http://www.iwd3.com/A1/Scripts/json1b.php',
+						height:315,
+						fitColumns:true,
+						onBeforeRender: function(target, rows){
+							width: windowWidth -25;
+						},
+						columns:[[
+							{field:'teams',title:'Teams',width:120},
+							{field:'score',title:'Scores',width:60},
+							{field:'inning',title:'Innings',width:130}
+						]]
+					});
+										
+					// end scoreboard
+					
+					
+					// panels
+					var items = [];
+					$.each( data.panels, function ( i, val ) {
+						//Title 
+						//var title=val['title'];
+						//Insert the data to HTML page
+						//$(".title").append('<li>'+val['id']+': <a href="http://www.webinfopedia.com/' + val['url'] +'" target="_blank">'+title+'</a></li>');
+						//$("#newP1").append('<li>'+val['id']+': <a href="http://www.webinfopedia.com/' + val['url'] +'" target="_blank">'+title+'</a></li>');
+						items.push(val);// load array here
+					});
+					
+					// pn1
+					$("#pn1_title").html('<p>'+items[0].ctitle+'</p>');
+					$("#pn1_content").html('<p>'+items[0].info+' '+displayTime()+'</p>');
+					$("#pn1_tag1").html('<h3>'+items[0].tag1+'</h3>');
+					$("#pn1_tag2").html('<p>'+items[0].tag2+'</p>');
+					// end pn1
+					
+					// pn4
+					$("#pn4_title").html('<p>'+items[4].ctitle+'</p>');
+					$("#pn4_info").html('<p>'+items[4].info+'</br></br></p>');
+					//$("#pn4_tag1").html('<h3>'+items[7].tag1+'</h3>');
+					//$("#pn4_tag2").html('<p>'+items[7].tag2+'</p>');
+					//$("#lupDte4").html(displayTime());
+					// end pn4
+					
+					// pn7
+					$("#pn7_title").html('<p>'+items[7].ctitle+'</p>');
+					$("#pn7_info").html('<p>'+items[7].info+'</br></br></p>');
+					//$("#pn7_tag1").html('<h3>'+items[7].tag1+'</h3>');
+					//$("#pn7_tag2").html('<p>'+items[7].tag2+'</p>');
+					$("#lupDte7").html(displayTime());
+					// end pn7
+					
+					
+				})
+			}
+			
+			
+			
+        });
+		
+		
+</script>
+	
+</body>
+</html>
